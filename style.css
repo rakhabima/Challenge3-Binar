@@ -35,8 +35,6 @@ body {
 /* this section for the game section */
 .games {
     background-image: url(./assets/the-games-bg.jpg);
-    /* height: 100%;
-    width: 100%; */
     background-size: cover;
     background-position: center center;
     height: 60rem;
@@ -71,4 +69,17 @@ body {
     position: absolute;
     right: 50%;
     bottom: 5%
+}
+
+/* this section for features page */
+.features {
+    background-image: url(./assets/features.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 60rem;
+    width: 100%;
+}
+
+.features-content {
+    padding-top: 12%;
 }
