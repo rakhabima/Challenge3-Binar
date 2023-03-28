@@ -31,3 +31,44 @@ body {
     width: 100%;
     height: 85%;
 }
+
+/* this section for the game section */
+.games {
+    background-image: url(./assets/the-games-bg.jpg);
+    /* height: 100%;
+    width: 100%; */
+    background-size: cover;
+    background-position: center center;
+    height: 60rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.games-text {
+    padding-bottom: 20%;
+}
+
+.games-img {
+    width: 50%;
+    margin-left: 15px;
+    padding-left: 20px;
+    position: relative;
+
+}
+
+.games-img .main-img {
+    width: 80%;
+    height: 40%;
+}
+
+.games-img .switch-img {
+    width: 2%;
+}
+
+.games-img .ellipse-img {
+    position: absolute;
+    right: 50%;
+    bottom: 5%
+}
