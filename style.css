@@ -17,38 +17,17 @@ body {
     width: 100%;
 }
 
-/* this section for navbar
-nav {
-    display: flex;
-    justify-content: space-between;
-    padding: 1.8rem 6.25rem;
-    background-color: rgb(0, 0, 0, 0.5);
+.h1-main {
+    font-size: 4.5rem;
 }
 
-.nav-col2 {
-    width: 30%;
-    display: flex;
-    padding-right: 20rem;
-    justify-content: space-around;
+@media (max-width: 400px) {
+    .h1-main {
+        font-size: 3.5rem;
+    }
 }
 
-.nav-col3 {
-    display: flex;
-    width: 15%;
-    justify-content: space-around;
+.main-content {
+    width: 100%;
+    height: 85%;
 }
-
-@media (max-width: 800px) {
-    nav {
-        justify-content: center;
-    }
-    .nav-col2{
-        flex-wrap: wrap;
-        text-align: center;
-    }
-
-
-    .nav-col3{
-        flex-wrap: wrap;
-    }
-} */
