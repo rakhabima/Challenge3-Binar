@@ -83,3 +83,16 @@ body {
 .features-content {
     padding-top: 12%;
 }
+
+/* this section for the system requirements section */
+.sys-req {
+    background-image: url(./assets/requirements.png);
+    background-size: cover;
+    background-position: center center;
+    height: 60rem;
+    width: 100%;
+}
+
+.sys-req h1 {
+    font-size: 56px;
+}
