@@ -115,3 +115,12 @@ body {
         margin-left: 100px;
     }
 }
+
+/* this section for the newsletter section */
+.newsletter {
+    background-image: url(./assets/newsletter.png);
+    background-size: cover;
+    background-position: center center;
+    height: 60rem;
+    width: 100%;
+}
